@@ -30,10 +30,22 @@ aside {
 
 main {
   background: green;
-    grid-area: main;
+  grid-area: main;
 }
 
 footer {
     background: #FB8500;
     grid-area: footer;
+}
+
+table{
+}
+
+ td{
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid black;
+  text-align: center;
 }
