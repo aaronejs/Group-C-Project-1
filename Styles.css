@@ -1,0 +1,39 @@
+*{
+  margin:0;
+}
+body{
+  color:;
+}
+#mainbox{
+  background-color: red;
+  width: 85vw;
+  height: 100vh;
+  margin:auto;
+  display: grid;
+  grid-template-columns: 40% auto;
+  grid-template-rows: 120px auto 80px;
+  grid-row-gap: 15px;
+  grid-column-gap: 10px;
+  grid-template-areas: "hd hd"
+                       "sidebar main"
+                       "footer footer";
+}
+header {
+    background: #521751;
+    grid-area: hd;
+}
+
+aside {
+    background: #fa923f;
+    grid-area: sidebar;
+}
+
+main {
+  background: green;
+    grid-area: main;
+}
+
+footer {
+    background: #FB8500;
+    grid-area: footer;
+}
