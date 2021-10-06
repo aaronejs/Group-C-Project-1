@@ -4,28 +4,38 @@
 body{
   color:;
 }
+@font-face { font-family: BasicSans; src: url('../Fonts/basicsanssf.ttf'); }
 #mainbox{
-  background-color: red;
+  background-color: white;
   width: 85vw;
   height: 100vh;
+  font-family: BasicSans;
   margin:auto;
   display: grid;
   grid-template-columns: 40% auto;
   grid-template-rows: 120px auto 80px;
-  grid-row-gap: 15px;
+  grid-row-gap: 10px;
   grid-column-gap: 10px;
   grid-template-areas: "hd hd"
                        "sidebar main"
                        "footer footer";
 }
 header {
-    background: #521751;
-    grid-area: hd;
-}
+  background: ;
+  color: #005AA8;
+  font-size: 2em;
+  grid-area: hd;
+  border-bottom: 4px solid #005AA8;
+  text-align: center;
 
+}
+headerbar {
+  background: white;
+  grid-area: hdr;
+}
 aside {
-    background: #fa923f;
-    grid-area: sidebar;
+  background: #fa923f;
+  grid-area: sidebar;
 }
 
 main {
@@ -34,14 +44,20 @@ main {
 }
 
 footer {
-    background: #FB8500;
-    grid-area: footer;
+  background: #FB8500;
+  grid-area: footer;
+}
+
+.line {
+  width: auto;
+  height: 10px;
+  background: green;
 }
 
 table{
 }
 
- td{
+td{
 	font-family: Verdana;
 	font-size: 13px;
 	font-weight: bold;
