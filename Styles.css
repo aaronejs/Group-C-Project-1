@@ -1,57 +1,88 @@
 *{
   margin:0;
+  box-sizing: border-box;
 }
 body{
   color:;
 }
 @font-face { font-family: BasicSans; src: url('../Fonts/basicsanssf.ttf'); }
-#mainbox{
+.container{
   background-color: white;
   width: 85vw;
-  height: 100vh;
+  height: 150vh;
   font-family: BasicSans;
   margin:auto;
   display: grid;
-  grid-template-columns: 40% auto;
-  grid-template-rows: 120px auto 80px;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  grid-template-rows: .3fr auto .6fr .3fr;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
-  grid-template-areas: "hd hd"
-                       "sidebar main"
-                       "footer footer";
+  grid-template-areas: "hd hd hd"
+                       "sidebar main main"
+                       "info info anoun"
+                       "footer footer footer";
 }
 header {
   background: ;
-  color: #005AA8;
+  color: #142f63;
   font-size: 2em;
   grid-area: hd;
   border-bottom: 4px solid #005AA8;
   text-align: center;
 
 }
-headerbar {
-  background: white;
-  grid-area: hdr;
-}
 aside {
   background: #fa923f;
   grid-area: sidebar;
 }
-
+.info{
+  background: red;
+  grid-area: info;
+}
+.announcements{
+  background: yellow;
+  grid-area: anoun;
+}
 main {
   background: green;
   grid-area: main;
 }
+.nested{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:auto auto;
+  
+}
+.nested *{
+  border: 1px solid black;
+  margin 0;
+}
+.content1{
+}
+.content2{
+}
+.content3{
+}
+.content4{
+}
+
 
 footer {
-  background: #FB8500;
+  background: #142f63;
   grid-area: footer;
 }
 
-.line {
-  width: auto;
-  height: 10px;
-  background: green;
+@media only screen and (max-width:550px){
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "hd"
+                         "sidebar"
+                         "main"
+                         "info"
+                         "anoun"
+                         "footer";
+  }
 }
 
 table{
