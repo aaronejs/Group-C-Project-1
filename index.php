@@ -35,21 +35,39 @@
                 echo "The ".$formType . " has been submitted.";
                 $message=$_POST['message'];
                 if ($formType!='Complaint'){
-                  file_put_contents('Form_' . $fname . "_" . $lname . '.txt',
-                                      $formType.' from '.$fname." ".$lname.
-                                      "\n------------------------------\nDate: "
-                                      .date("Y/m/d").
-                                      "\n------------------------------\nEmail: "
-                                      .$email.
-                                      "\n------------------------------\n"
-                                      .$message.
-                                      "\n------------------------------\n\n",FILE_APPEND);
+                    if((!is_dir($formType.'/'))){
+                         // direction doesn't exist, make it
+                         mkdir($formType.'/');
+                        }
+                    if(file_exists($formType.'/'.$formType. '_' . $fname . '_' . $lname . '.txt')){
+                        //it's so the ''database'' can store put to 2 same entries from one person.
+                         file_put_contents($formType.'/'.$formType. '_' . $fname . '_' . $lname . '1.txt',
+                                        $formType.' from '.$fname." ".$lname.
+                                        "\n------------------------------\nDate: "
+                                        .date("Y/m/d").
+                                        "\n------------------------------\nEmail: "
+                                        .$email.
+                                        "\n------------------------------\n"
+                                        .$message.
+                                        "\n------------------------------\n\n");
+                    }else{
+                        //example, put Question_Evald_Narkevicius.txt to a Question folder.
+                        file_put_contents($formType.'/'.$formType. '_' . $fname . '_' . $lname . '.txt',
+                                        $formType.' from '.$fname." ".$lname.
+                                        "\n------------------------------\nDate: "
+                                        .date("Y/m/d").
+                                        "\n------------------------------\nEmail: "
+                                        .$email.
+                                        "\n------------------------------\n"
+                                        .$message.
+                                        "\n------------------------------\n\n");
                 }
             }else{
                 echo "Please fill in the required information.<br>";
             }
         }else{
             echo "please, submit the form.";
+        }
         }
     ?>
   </body>
