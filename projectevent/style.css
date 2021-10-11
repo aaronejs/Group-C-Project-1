@@ -1,0 +1,19 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.gridcontainer
+{
+    display: grid;
+    background-color: blue;
+    padding: 5px;
+    grid-template-columns: auto;
+}
+
+.griditem
+{
+    background-color: magenta;
+    border: 1px solid black;
+    
+}
