@@ -13,7 +13,7 @@ body{
   font-family: BasicSans;
   margin:auto;
   display: grid;
-  grid-template-columns: 1.3fr 1fr 1fr;
+  grid-template-columns: 1.8fr 1fr 1fr;
   grid-template-rows: .3fr auto .6fr .3fr;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -23,13 +23,32 @@ body{
                        "footer footer footer";
 }
 header {
+  display: flex;
+  flex-direction: row;
   background: ;
   color: #142f63;
   font-size: 2em;
   grid-area: hd;
   border-bottom: 4px solid #005AA8;
   text-align: center;
+  align-items: flex-end;
+}
+.logo{
+  width: 200px;
+  align-items: bottom;
+  border: 1px solid black;
 
+}
+.headertext{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  border: 1px solid black;
+  align-items: flex-end;
+}
+.headertext p2{
+  padding: 20px;
+  font-size: 80%;
 }
 aside {
   background: #fa923f;
@@ -50,16 +69,13 @@ main {
 .nested{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows:auto auto;
-  
+  grid-template-rows: auto auto;
 }
 .nested *{
   border: 1px solid black;
-  margin 0;
 }
-.content1{
-}
-.content2{
+.content1, .content2{
+  margin-top: 4%;
 }
 .content3{
 }
