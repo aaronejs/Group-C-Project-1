@@ -1,59 +1,38 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
+        <link href="style.css" type="text/css" rel="stylesheet">
         <meta charset="UTF-8">
         <title>Event calendar</title>
     </head>
     <body>
-    <h1>Event calendar</h1>
-        <form method="post">
-                <label for="day">Day (between 1 and 31):</label>
-		<input type="number" id="day" name="day" min="1" max="31" /><br>
-                <label for="month">Month (between 1 and 12):</label>
-                <input type="number" id="month" name="month" min="1" max="12" /><br>
-                <label for="year">Year:</label>
-                <input type="year" id="year" name="year" /><br>
-                <input type="submit" id="submit" name="submit" value="Add event" />
-        </form>
+    <h1>Event adder</h1>
         <?php
-        //use array, implement modify, remove event function
-        //add time to events, maybe use empty function to check
-        //(if time is empty it will be a whole day event)
-        //READ ABOUT SET TIME FUNCTION
-        //set the time after getting the day month year variables and then output the day with date('l')
-        $i=0;
-        if(isset($_POST['submit']))
-        {
-            $day=$_POST['day'];
-            $month=$_POST['month'];
-            $year=$_POST['year'];
-            
-            
-            $array[$i][$day]=$day;
-            $array[$i][$month]=$month;
-            $array[$i][$year]=$year;
-            
-            //echo $array[$i][$day]." ".$array[$i][$month]." ".$array[$i][$year];
+            //using the file function to split strings from the text file into arrays
+            $lines=file("newfile.txt");
+            //usign explode to further create arrays for each individual element
+            //$lines[0] is the number of events you want to add
+            for($index=0;$index<$lines[0];$index++)
+            {$day=explode(" ",$lines[1]);
+             $month=explode(" ",$lines[2]);
+             $year=explode(" ",$lines[3]);
+             $text=explode(";",$lines[4]);
+            }
+
+            for($index=0;$index<$lines[0];$index++){
             ?>
-            <div class=gridcontainer>
-            <div class=griditem>
-            <?php echo $array[$i][$day]." ".$array[$i][$month]." ".$array[$i][$year]; ?>
-            </div>
-            </div>
-            <?php 
-            $i++;
-        }
-        /*$year=2021;
-        $month=10;
-        $day=13;
-        $date= date($day+2 . " - $month - $year");
-        echo $date;*/ 
+            <table class="padtop">
+            <tr>
+            <td>
+            <?php echo "Event date: " . $day[$index] ." ". $month[$index] ." ". $year[$index]; ?>
+            </td>
+            <td>
+            <?php echo $text[$index]; ?>
+            </td>
+            </tr>
+            </table>
+            <?php
+            }
         ?>
-        
     </body>
 </html>

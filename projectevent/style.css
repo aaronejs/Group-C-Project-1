@@ -15,5 +15,28 @@
 {
     background-color: magenta;
     border: 1px solid black;
-    
+
+}
+
+td, tr
+{
+  border: 2px solid black;
+  width: 700px;
+}
+
+.padtop
+{
+  padding-top: 10px;
+}
+
+.margtop
+{
+  margin-top: 20px;
+}
+
+#description
+{
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
 }
