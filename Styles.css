@@ -46,7 +46,7 @@ header {
   border: 1px solid black;
   align-items: flex-end;
 }
-.headertext p2{
+.headertext p{
   padding: 20px;
   font-size: 1.5vw;
 }
@@ -63,7 +63,7 @@ announcements{
   grid-area: anoun;
 }
 main {
-  background: green;
+  background: none;
   grid-area: main;
 }
 .nested{
@@ -72,7 +72,9 @@ main {
   grid-template-rows: auto auto;
 }
 .nested *{
-  border: 1px solid black;
+}
+.content1:hover, .content2:hover, .content3:hover, .content4:hover {
+  opacity: 0.8;
 }
 .content1, .content2{
   margin-top: 4%;
@@ -101,7 +103,7 @@ footer {
   .logo img{
     width:60%;
   }
-  .headertext p2{
+  .headertext p{
     font-size: 2vw;
     padding: 10px;
   }
