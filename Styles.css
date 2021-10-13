@@ -98,15 +98,15 @@ footer {
                          "anoun"
                          "footer";
   }
-  .logo{
-    width:100%;
+  .logo img{
+    width:60%;
   }
   .headertext p2{
     font-size: 2vw;
     padding: 10px;
   }
   .content1, .content2{
-    margin: 0;
+
   }
 }
 
