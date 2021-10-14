@@ -16,8 +16,8 @@ body{
   display: grid;
   grid-template-columns: 1.8fr 1fr 1fr;
   grid-template-rows: .3fr auto .6fr .3fr;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
   grid-template-areas: "hd hd hd"
                        "sidebar main main"
                        "info info anoun"
@@ -38,6 +38,7 @@ header a{
 }
 
 .logo{
+  display: flex;
   width: 200px;
   align-items: flex-end;
 }
@@ -48,7 +49,7 @@ header a{
   align-items: flex-end;
 }
 .headertext p{
-  padding: 20px;
+  padding: 1em;
   font-size: 1.5vw;
 }
 aside {
@@ -56,8 +57,16 @@ aside {
   grid-area: sidebar;
 }
 info{
+  padding: 3em;
   background: red;
   grid-area: info;
+}
+.infotext{
+  display: flex;
+  justify-content: flex-start;
+}
+.infotext p{
+  margin-top: 2%;
 }
 announcements{
   background: none;
