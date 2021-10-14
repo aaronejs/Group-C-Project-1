@@ -58,12 +58,13 @@ aside {
 }
 info{
   padding: 3em;
-  background: red;
+  background: #fb8501;
   grid-area: info;
 }
 .infotext{
   display: flex;
   justify-content: flex-start;
+  font-size: 1.1vw;
 }
 .infotext p{
   margin-top: 2%;
