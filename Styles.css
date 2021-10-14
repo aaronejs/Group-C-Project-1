@@ -5,10 +5,7 @@
 body{
   color:;
 }
-header a{
-  text-decoration: none;
-  color: inherit;
-}
+
 @font-face { font-family: BasicSans; src: url('../Fonts/basicsanssf.ttf'); }
 .container{
   background-color: white;
@@ -34,20 +31,20 @@ header {
   font-size: 2em;
   grid-area: hd;
   border-bottom: 4px solid #005AA8;
-  text-align: center;
-  align-items: flex-end;
 }
+header a{
+  text-decoration: none;
+  color: inherit;
+}
+
 .logo{
   width: 200px;
-  align-items: bottom;
-  border: 1px solid black;
-
+  align-items: flex-end;
 }
 .headertext{
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
-  border: 1px solid black;
   align-items: flex-end;
 }
 .headertext p{
@@ -55,7 +52,7 @@ header {
   font-size: 1.5vw;
 }
 aside {
-  background: #fa923f;
+  background: none;
   grid-area: sidebar;
 }
 info{
@@ -64,7 +61,15 @@ info{
 }
 announcements{
   background: yellow;
+  border: 4px solid #142f63;
   grid-area: anoun;
+  overflow: auto;
+}
+.nestedAnnounce{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1em;
+  border: 1px solid black;
 }
 main {
   background: none;
