@@ -60,7 +60,7 @@ info{
   grid-area: info;
 }
 announcements{
-  background: yellow;
+  background: none;
   border: 4px solid #142f63;
   grid-area: anoun;
   overflow: auto;
@@ -68,9 +68,29 @@ announcements{
 .nestedAnnounce{
   display: flex;
   justify-content: flex-start;
-  padding-left: 1em;
-  border: 1px solid black;
+  padding: .8em;
+  border-bottom: 1px solid black;
 }
+
+/* width */
+announcements::-webkit-scrollbar {
+  width: .4em;
+}
+/* Track */
+announcements::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px grey;
+  border-radius: 10px;
+}
+/* Handle */
+announcements::-webkit-scrollbar-thumb {
+  background: #005AA8;
+  border-radius: 10px;
+}
+/* Handle on hover */
+announcements::-webkit-scrollbar-thumb:hover {
+  background: #142f63;
+}
+
 main {
   background: none;
   grid-area: main;
