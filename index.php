@@ -42,7 +42,18 @@
         </div>
       </main>
       <info>
-        info
+        <div class="infotext">
+          <h2>About NHLStenden University of applied sciences</h2>
+        </div>
+        <div class="infotext">
+          <p>
+            By combining our strenghts, we are sure we can provide our students
+            with the best possible education. Our brand-new organisation retains
+            the rich history and experience of both institutions, dating back to
+            the year 1845. This results in an internationally orientated
+            institution, with strong ties to local communities and businesses.
+          </p>
+        </div>
       </info>
       <announcements>
         <div class="nestedAnnounce"><h2>Events</h2></div>
