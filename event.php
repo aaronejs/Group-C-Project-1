@@ -35,9 +35,6 @@
                 $min=$events[$index];
               }
             }
-            ?>
-            <div class="nestedAnnounce"><h2>Events</h2></div>
-            <?php
             //min is the minimum number of events
             for($index=0;$index<$min;$index++){
             ?>

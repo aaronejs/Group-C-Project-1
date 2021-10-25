@@ -58,7 +58,6 @@
         </div>
       </div>
       <div class="announcements">
-        <?php  ?>
         <div class="nestedAnnounce"><h2>Events</h2></div>
         <div class="nestedAnnounce">Test</div>
         <div class="nestedAnnounce">Test</div>
