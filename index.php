@@ -26,22 +26,24 @@
         <img src="./resources/lineArt.png" alt="Lineart ballerina" width="100%">
       </aside>
       <main>
-        <div class="nested">
-          <div class = "content1">
+        <div class="flexRow">
+          <div>
             <img src="./resources/hiphop.jpg" alt="hiphop dance" width="100%" height="100%">
           </div>
-          <div class = "content2">
+          <div>
             <img src="./resources/ballet.jfif" alt="ballet dance" width="100%" height="100%">
           </div>
-          <div class = "content3">
+        </div>
+        <div class="flexRow">
+          <div>
             <img src="./resources/flamenco.jfif" alt="flamenco dance" width="100%" height="100%">
           </div>
-          <div class = "content4">
+          <div>
             <img src="./resources/contemporary.jfif" alt="contemporary dance" width="100%" height="100%">
           </div>
         </div>
       </main>
-      <info>
+      <div class="info">
         <div class="infotext">
           <h2>About NHLStenden University of applied sciences</h2>
         </div>
@@ -54,8 +56,9 @@
             institution, with strong ties to local communities and businesses.
           </p>
         </div>
-      </info>
-      <announcements>
+      </div>
+      <div class="announcements">
+        <?php  ?>
         <div class="nestedAnnounce"><h2>Events</h2></div>
         <div class="nestedAnnounce">Test</div>
         <div class="nestedAnnounce">Test</div>
@@ -73,7 +76,7 @@
         <div class="nestedAnnounce">Test</div>
         <div class="nestedAnnounce">Test</div>
         <div class="nestedAnnounce">Test</div>
-      </announcements>
+      </div>
       <footer>
         footer
       </footer>
