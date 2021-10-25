@@ -18,8 +18,8 @@
         <div class="headertext">
           <p><a href="">Dance programm</a></p>
           <p><a href="">Signup</a></p>
-          <p><a href="">Questions</a></p>
-          <p><a href="">Feedback</a></p>
+          <p><a href="qform.php">Questions</a></p>
+          <p><a href="fform.php">Feedback</a></p>
         </div>
       </header>
       <aside>
@@ -76,6 +76,10 @@
         <div class="nestedAnnounce">Test</div>
         <div class="nestedAnnounce">Test</div>
         <div class="nestedAnnounce">Test</div>
+        <?php
+        include 'event.php';
+        Event();
+        ?>
       </div>
       <footer>
         footer

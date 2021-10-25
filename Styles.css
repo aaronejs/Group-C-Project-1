@@ -166,3 +166,47 @@ td{
 	border: 1px solid black;
   text-align: center;
 }
+
+/* Form pages */
+.name{
+    width:22vw;
+    height:2.5vw;
+}
+input{
+    margin-bottom:2.5vh;
+    border: 2px solid #005AA8;
+}
+::placeholder{
+    font-family: BasicSans;
+    font-style: italic;
+}
+select{
+    margin-bottom:2.5vh;
+    border: 2px solid #005AA8;
+}
+.email_ctype{
+    width:44.38vw;
+    height:5vh;
+}
+#message{
+    width:44.38vw;
+    height:7.5vh;
+    resize:none;
+}
+#submit{
+    width:11vw;
+    height:5vh;
+    margin-left:5vw;
+    border:0;
+    color:white;
+    background: #fb8501;
+}
+#reset{
+    width:11vw;
+    height:5vh;
+    float:right;
+    margin-right:5vw;
+    border:0;
+    color:white;
+    background: #fb8501;
+}
