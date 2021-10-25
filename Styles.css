@@ -1,17 +1,19 @@
+@font-face { font-family: BasicSans; src: url('../Fonts/basicsanssf.ttf'); }
 *{
   margin:0;
   box-sizing: border-box;
+  font-family: BasicSans, sans-serif;
 }
 body{
   color:;
 }
 
-@font-face { font-family: BasicSans; src: url('../Fonts/basicsanssf.ttf'); }
+
 .container{
   background-color: white;
   width: 85vw;
   height: 150vh;
-  font-family: BasicSans, sans-serif;
+
   margin:auto;
   display: grid;
   grid-template-columns: 1.8fr 1fr 1fr;
@@ -177,8 +179,7 @@ input{
     border: 2px solid #005AA8;
 }
 ::placeholder{
-    font-family: BasicSans;
-    font-style: italic;
+  font-style: italic;
 }
 select{
     margin-bottom:2.5vh;
