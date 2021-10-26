@@ -27,18 +27,22 @@
       <main>
         <div class="flexRow">
           <div>
-            <img src="./resources/hiphop.jpg" alt="hiphop dance" width="100%" height="100%">
+            <img src="./resources/hiphop.jpg" alt="hiphop dance" >
+            <h2>Hiphop</h2>
           </div>
           <div>
-            <img src="./resources/ballet.jfif" alt="ballet dance" width="100%" height="100%">
+            <img src="./resources/ballet.jfif" alt="ballet dance" >
+            <h2>Ballet</h2>
           </div>
         </div>
         <div class="flexRow">
           <div>
-            <img src="./resources/flamenco.jfif" alt="flamenco dance" width="100%" height="100%">
+            <img src="./resources/flamenco.jfif" alt="flamenco dance">
+            <h2>Flamenco</h2>
           </div>
           <div>
-            <img src="./resources/contemporary.jfif" alt="contemporary dance" width="100%" height="100%">
+            <img src="./resources/contemporary.jfif" alt="contemporary dance" >
+            <h2>Contemporary</h2>
           </div>
         </div>
       </main>

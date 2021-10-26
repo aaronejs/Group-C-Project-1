@@ -58,15 +58,48 @@ aside {
   background: none;
   grid-area: sidebar;
 }
+main {
+  background: none;
+  grid-area: main;
+  margin-top: .8em;
+}
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  height: 15vw;
+}
+.flexRow img{
+  height: 100%;
+  width: 100%;
+}
+.flexRow div{
+  flex:1;
+  position: relative;
+}
+.flexRow h2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+.flexRow div:hover{
+  opacity: 0.8;
+}
+.flexRow div:hover h2{
+  opacity: 1;
+}
 .info{
-  padding: 3em;
+  padding: 4em;
   background: #fb8501;
   grid-area: info;
 }
 .infotext{
   display: flex;
   justify-content: flex-start;
-  font-size: 1.1vw;
+  font-size: 2.2vh;
   color: #FFF;
 }
 .infotext p{
@@ -84,7 +117,6 @@ aside {
   padding: .8em;
   border-bottom: 1px solid black;
 }
-
 /* width */
 .announcements::-webkit-scrollbar {
   width: .4em;
@@ -104,23 +136,6 @@ aside {
   background: #142f63;
 }
 
-main {
-  background: none;
-  grid-area: main;
-  margin-top: .8em;
-}
-.flexRow{
-  display: flex;
-  flex-direction: row;
-  height: 40%;
-}
-.flexRow div{
-  flex:1;
-}
-.flexRow div:hover{
-  opacity: 0.8;
-}
-
 footer {
   background: #142f63;
   grid-area: footer;
@@ -128,7 +143,7 @@ footer {
 
 @media only screen and (max-width:550px){
   .container{
-    grid-template-columns: .8fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "hd"
                          "main"
@@ -136,24 +151,27 @@ footer {
                          "anoun"
                          "footer";
   }
-  .logo img{
-    width:60%;
-  }
   .headertext p{
     font-size: 2vw;
     padding: 10px;
+  }
+  aside{
+    display: none;
+  }
+  main{
+    margin: 0;
+  }
+  .flexRow{
+    height: 30vw;
+  }
+  .logo img{
+    width:60%;
   }
   .info{
     padding: 1em;
   }
   .infotext{
     font-size: 1em;
-  }
-  main{
-    margin: 0;
-  }
-  .flexRow{
-    height: 50%;
   }
 }
 
