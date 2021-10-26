@@ -85,13 +85,26 @@ main {
   top: 50%;
   transform: translate(-50%, -50%);
   color: #FFF;
+  opacity: 1;
+  transition: opacity .2s;
+}
+.flexRow h3{
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
   opacity: 0;
-  transition: opacity .2s, visibility .2s;
+  transition: opacity .6s;
 }
 .flexRow div:hover{
   opacity: 0.8;
 }
 .flexRow div:hover h2{
+  opacity: 0;
+}
+.flexRow div:hover h3{
   opacity: 1;
 }
 .info{
@@ -155,7 +168,7 @@ footer {
                          "footer";
   }
   .headertext p{
-    font-size: 2vw;
+    font-size: 2.5vw;
     padding: 10px;
   }
   aside{

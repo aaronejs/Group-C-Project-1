@@ -29,21 +29,25 @@
         <div class="flexRow">
           <div>
             <img src="./resources/hiphop.jpg" alt="hiphop dance" >
-            <h2>Hiphop</h2>
+            <h2>Hip-hop</h2>
+            <h3>i hate gypsies</h3> 
           </div>
           <div>
             <img src="./resources/ballet.jfif" alt="ballet dance" >
             <h2>Ballet</h2>
+            <h3>i hate gypsies</h3>
           </div>
         </div>
         <div class="flexRow">
           <div>
             <img src="./resources/flamenco.jfif" alt="flamenco dance">
             <h2>Flamenco</h2>
+            <h3>i hate gypsies</h3>
           </div>
           <div>
             <img src="./resources/contemporary.jfif" alt="contemporary dance" >
             <h2>Contemporary</h2>
+            <h3>i hate gypsies</h3>
           </div>
         </div>
       </main>
