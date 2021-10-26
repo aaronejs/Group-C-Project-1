@@ -30,24 +30,44 @@
           <div>
             <img src="./resources/hiphop.jpg" alt="hiphop dance" >
             <h2>Hip-hop</h2>
-            <h3>i hate gypsies</h3> 
+            <h3>
+              Hip-hop dance is a vibrant form of dance that combines
+              a variety of freestyle movements to create a cultural experience
+              of art. There are three main styles:
+              popping, locking and breaking
+            </h3>
           </div>
           <div>
             <img src="./resources/ballet.jfif" alt="ballet dance" >
             <h2>Ballet</h2>
-            <h3>i hate gypsies</h3>
+            <h3>
+              Ballet is an art form that is theatrical and has a scenic
+              design and lighting. It can tell a story or express a thought,
+              concept or emotion. Ballet can be magical, exciting, provoking
+              or disturbing
+            </h3>
           </div>
         </div>
         <div class="flexRow">
           <div>
             <img src="./resources/flamenco.jfif" alt="flamenco dance">
             <h2>Flamenco</h2>
-            <h3>i hate gypsies</h3>
+            <h3>
+              Flamenco dance originates from Spain. Flamenco is a solo dance
+              characterized by hand clapping, percussive footwork, and
+              intricate hand, arm and body movements. The dance is usually
+              accompanied by a singer and a guitar player
+            </h3>
           </div>
           <div>
             <img src="./resources/contemporary.jfif" alt="contemporary dance" >
             <h2>Contemporary</h2>
-            <h3>i hate gypsies</h3>
+            <h3>
+              Contemporary dance is a style of expressive dance that combines
+              elements of several dance genres including modern, jazz, lyrical
+              and classical ballet. Contemporary dancers strive to connect the
+              mind and the body through fluid dance movements
+            </h3>
           </div>
         </div>
       </main>
