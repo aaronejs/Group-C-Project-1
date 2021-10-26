@@ -41,8 +41,10 @@ header a{
 
 .logo{
   display: flex;
-  width: 200px;
+  height: auto;
+  width: 12vw;
   align-items: flex-end;
+  justify-content: flex-start;
 }
 .headertext{
   display: flex;
@@ -77,6 +79,7 @@ main {
   position: relative;
 }
 .flexRow h2{
+  font-size: 2em;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -141,7 +144,7 @@ footer {
   grid-area: footer;
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:1024px){
   .container{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -162,10 +165,10 @@ footer {
     margin: 0;
   }
   .flexRow{
-    height: 30vw;
+    height: 35vw;
   }
-  .logo img{
-    width:60%;
+  .logo{
+    width:25vw;
   }
   .info{
     padding: 1em;
