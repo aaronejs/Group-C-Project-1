@@ -3,6 +3,7 @@
 <html lang="en-US" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link href="Styles.css" type="text/css"
  			rel="stylesheet" />
     <title>NHLStenden Dance course</title>
