@@ -105,7 +105,7 @@
         <div class="nestedAnnounce">Test</div>
         <?php
         include 'event.php';
-        Event();
+        event();
         ?>
       </div>
       <footer>
