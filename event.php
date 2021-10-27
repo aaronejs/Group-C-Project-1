@@ -7,7 +7,7 @@
     </head>
     <body>
         <?php
-          function Event(){
+          function event(){
             //using the file function to split strings from the text file into arrays
             $lines=file("newfile.txt");
             //usign explode to further create arrays for each individual element
@@ -28,20 +28,18 @@
             //for example if you had 3 days, 4 months, 5 years and 6 texts, the program
             //would only show 3 events
             $min=$events[0];
-            for($index=1;$index<4;$index++)
-            {
-              if($events[$index]<$min)
-              {
+            for($index=1;$index<4;$index++){
+              if($events[$index]<$min){
                 $min=$events[$index];
               }
             }
             //min is the minimum number of events
             for($index=0;$index<$min;$index++){
-            ?>
-            <div class="nestedAnnounce">
-            <?php echo "Event date: " . $day[$index] ." ". $month[$index] ." ". $year[$index] .": ". $text[$index];?>
-            </div>
-            <?php
+              ?>
+              <div class="nestedAnnounce">
+              <?php echo "Event date: " . $day[$index] ." ". $month[$index] ." ". $year[$index] .": ". $text[$index];?>
+              </div>
+              <?php
             }
           }
         ?>
