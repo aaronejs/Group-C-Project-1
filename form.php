@@ -44,31 +44,35 @@
     </form>
     <?php
         if(isset($_POST['submit'])){
-            if(!empty($_POST['firstName']) && !empty($_POST['lastName']) && !empty($_POST['email']) && !empty($_POST['message'])){
-                $firstName=$_POST['firstName'];
-                $lastName=$_POST['lastName'];
-                $email=$_POST['email'];
-                $formType=$_POST['formType'];
-                echo $formType . " has been submitted";
-                $message=$_POST['message'];
-                if ($formType!='Complaint'){
-                    if((!is_dir($formType.'/'))){
-                         //if  direction doesn't exist, make it
-                         mkdir($formType.'/');
-                       }
-                        //example, put Question_Evald_Narkevicius.txt to a Question folder.
-                        file_put_contents($formType.'/'.$formType. '_' . $firstName . '_' . $lastName . '.txt',
-                                        $formType.' from '.$firstName." ".$lastName.
-                                        "\n------------------------------\nDate: "
-                                        .date("Y/m/d").
-                                        "\n------------------------------\nEmail: "
-                                        .$email.
-                                        "\n------------------------------\n"
-                                        .$message.
-                                        "\n------------------------------\n\n",FILE_APPEND);
-            }else{
-                echo "Please fill in the required information.";
-            }
+          if(!empty($_POST['firstName']) && !empty($_POST['lastName']) && !empty($_POST['email']) && !empty($_POST['message'])){
+            $firstName=$_POST['firstName'];
+            $lastName=$_POST['lastName'];
+            $email=$_POST['email'];
+            $formType=$_POST['formType'];
+            echo $formType . " has been submitted";
+            $message=$_POST['message'];
+            if ($formType!='Complaint'){
+              if((!is_dir('Messages EN/'))){
+                //if direction doesn't exist, make it, made so that dutch and english messages are separated.
+                mkdir('Messages EN/');
+              }
+              if((!is_dir('Messages EN/'.$formType.'/'))){
+                //if  direction doesn't exist, make it
+                mkdir('Messages EN/'.$formType.'/');
+              }
+              //example, put Question_Evald_Narkevicius.txt to a /Messages EN/Question/ folder.
+              file_put_contents('Messages EN/'.$formType.'/'.$formType. '_' . $firstName . '_' . $lastName . '.txt',
+                                $formType.' from '.$firstName." ".$lastName.
+                                "\n------------------------------\nDate: "
+                                .date("Y/m/d").
+                                "\n------------------------------\nEmail: "
+                                .$email.
+                                "\n------------------------------\n"
+                                .$message.
+                                "\n------------------------------\n\n",FILE_APPEND);
+              }else{
+                  echo "Please fill in the required information.";
+              }
         }else{
             echo "Please, submit the form.";
         }

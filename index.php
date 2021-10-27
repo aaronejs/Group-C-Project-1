@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link href="Styles.css" type="text/css"
  			rel="stylesheet" />
-    <title>NHLStenden Dance course</title>
+    <title>NHLStenden Dance course | Home</title>
   </head>
   <body>
     <div class="container">
