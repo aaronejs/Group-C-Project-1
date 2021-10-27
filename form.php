@@ -27,8 +27,8 @@
         <main>
     <form action="form.php" method="post">
         <label for="fname">Full name *</label><br>
-        <input class="name" type="text" id="fname" name="fname" placeholder="First">
-        <input class="name" type="text" id="lname" name="lname" placeholder="Last"><br>
+        <input class="name" type="text" id="firstName" name="firstName" placeholder="First">
+        <input class="name" type="text" id="lastName" name="lastName" placeholder="Last"><br>
         <label for="email">E-mail *</label><br>
         <input class="email_ctype" type="text" id="email" name="email" placeholder="E-mail"><br>
         <label for="select">Contact type *</label><br>
@@ -44,53 +44,40 @@
     </form>
     <?php
         if(isset($_POST['submit'])){
-            if(!empty($_POST['fname']) && !empty($_POST['lname']) && !empty($_POST['email']) && !empty($_POST['message'])){
-                $fname=$_POST['fname'];
-                $lname=$_POST['lname'];
+            if(!empty($_POST['firstName']) && !empty($_POST['lastName']) && !empty($_POST['email']) && !empty($_POST['message'])){
+                $firstName=$_POST['firstName'];
+                $lastName=$_POST['lastName'];
                 $email=$_POST['email'];
                 $formType=$_POST['formType'];
-                echo "".$formType . " has been submitted";
+                echo $formType . " has been submitted";
                 $message=$_POST['message'];
                 if ($formType!='Complaint'){
                     if((!is_dir($formType.'/'))){
-                         // direction doesn't exist, make it
+                         //if  direction doesn't exist, make it
                          mkdir($formType.'/');
-                        }
-                    if(file_exists($formType.'/'.$formType. '_' . $fname . '_' . $lname . '.txt')){
-                        //it's so the ''database'' can store put to 2 same entries from one person.
-                         file_put_contents($formType.'/'.$formType. '_' . $fname . '_' . $lname . '1.txt',
-                                        $formType.' from '.$fname." ".$lname.
-                                        "\n------------------------------\nDate: "
-                                        .date("Y/m/d").
-                                        "\n------------------------------\nEmail: "
-                                        .$email.
-                                        "\n------------------------------\n"
-                                        .$message.
-                                        "\n------------------------------\n\n");
-                    }else{
+                       }
                         //example, put Question_Evald_Narkevicius.txt to a Question folder.
-                        file_put_contents($formType.'/'.$formType. '_' . $fname . '_' . $lname . '.txt',
-                                        $formType.' from '.$fname." ".$lname.
+                        file_put_contents($formType.'/'.$formType. '_' . $firstName . '_' . $lastName . '.txt',
+                                        $formType.' from '.$firstName." ".$lastName.
                                         "\n------------------------------\nDate: "
                                         .date("Y/m/d").
                                         "\n------------------------------\nEmail: "
                                         .$email.
                                         "\n------------------------------\n"
                                         .$message.
-                                        "\n------------------------------\n\n");
-                }
+                                        "\n------------------------------\n\n",FILE_APPEND);
             }else{
                 echo "Please fill in the required information.";
             }
         }else{
             echo "Please, submit the form.";
         }
-        }
+      }
     ?>
-                    </main>
-             <footer>
-        footer
-      </footer>
-      </div>
+    </main>
+    <footer>
+      footer
+    </footer>
+    </div>
   </body>
 </html>
