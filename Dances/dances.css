@@ -72,6 +72,10 @@ aside{
   justify-content: center;
   color: #005AA8;
 }
+.selection a{
+  text-decoration: none;
+  color: inherit;
+}
 main{
   grid-area: main;
   color: #005AA8;
