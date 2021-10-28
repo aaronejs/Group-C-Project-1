@@ -52,20 +52,20 @@
             <img src="./resources/flamenco.jfif" alt="flamenco dance">
             <h2>Flamenco</h2>
             <h3>
-            Flamenco dans (baile) is een zeer expressieve Spaanse dans vorm.
-            De flamenco is een solodans die wordt gekenmerkt door handgeklap,
-            percussie voetwerk en ingewikkelde hand-, arm- en lichaamsbewegingen.
-            De dans wordt meestal begeleid door een zanger en gitaris
+              Flamenco dans (baile) is een zeer expressieve Spaanse dans vorm.
+              De flamenco is een solodans die wordt gekenmerkt door handgeklap,
+              percussie voetwerk en ingewikkelde hand-, arm- en lichaamsbewegingen.
+              De dans wordt meestal begeleid door een zanger en gitaris
             </h3>
           </div>
           <div>
             <img src="./resources/contemporary.jfif" alt="contemporary dance" >
             <h2>Hedendaagse</h2>
             <h3>
-            Hedendaagse dans is een stijl van expressieve dans die elementen van
-            verschillende dansgenres combineert, waaronder modern, jazz, lyrisch
-            en klassiek ballet. Hedendaagse dansers streven ernaar om de geest en
-            het lichaam te verbinden door middel van vloeiende dansbewegingen.
+              Hedendaagse dans is een stijl van expressieve dans die elementen van
+              verschillende dansgenres combineert, waaronder modern, jazz, lyrisch
+              en klassiek ballet. Hedendaagse dansers streven ernaar om de geest en
+              het lichaam te verbinden door middel van vloeiende dansbewegingen.
             </h3>
           </div>
         </div>
