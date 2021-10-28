@@ -74,10 +74,16 @@ aside{
 }
 main{
   grid-area: main;
+  color: #005AA8;
+  font-size: 1.3em;
 }
 main img{
   float:right;
   padding: 1em;
+  padding-right: 0;
+}
+main div{
+  margin-bottom: 1em;
 }
 .text{
   padding: 2em;
@@ -95,5 +101,16 @@ footer{
                          "sidebar"
                          "main"
                          "footer";
+  }
+  .headertext p{
+    font-size: 2.5vw;
+    padding: 10px;
+  }
+  .selection{
+    height: 2em;
+    font-size: 1em;
+  }
+  main img{
+    display: none;
   }
 }
