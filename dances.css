@@ -75,6 +75,13 @@ aside{
 main{
   grid-area: main;
 }
+main img{
+  float:right;
+  padding: 1em;
+}
+.text{
+  padding: 2em;
+}
 footer{
   background: #142f63;
   grid-area: footer;
