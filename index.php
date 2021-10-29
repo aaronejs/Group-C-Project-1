@@ -20,6 +20,9 @@
           <p><a href="">Dance programm</a></p>
           <p><a href="">Signup</a></p>
           <p><a href="form.php">Feedback</a></p>
+          <div>
+            <a href="index_nl.php"><img src="./resources/NL_flag.png" alt="dutch flag" width="40vw"></a>
+          </div>
         </div>
       </header>
       <aside>

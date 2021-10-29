@@ -55,11 +55,16 @@ header a:active{
   justify-content: flex-end;
   margin-left: auto;
   align-items: flex-end;
+  width: 100%;
 }
 .headertext p{
   padding: 1em;
   font-size: 1.5vw;
 }
+.headertext div{
+  margin-bottom: .5vw;
+}
+
 aside {
   background: none;
   grid-area: sidebar;
