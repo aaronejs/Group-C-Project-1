@@ -27,6 +27,7 @@
       </header>
       <aside>
         <img src="./resources/lineArt.png" alt="Lineart ballerina" width="100%">
+        <div class="join"><h2>Join now!</h2></div>
       </aside>
       <main>
         <div class="flexRow">

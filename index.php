@@ -21,12 +21,13 @@
           <p><a href="">Signup</a></p>
           <p><a href="form.php">Feedback</a></p>
           <div>
-            <a href="index_nl.php"><img src="./resources/NL_flag.png" alt="dutch flag" width="40vw"></a>
+            <a href="index_nl.php"><img src="./resources/NL_flag.png" alt="dutch flag" class="lanImg"></a>
           </div>
         </div>
       </header>
       <aside>
         <img src="./resources/lineArt.png" alt="Lineart ballerina" width="100%">
+        <div class="join"><h2>Join now!</h2></div>
       </aside>
       <main>
         <div class="flexRow">

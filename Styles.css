@@ -13,11 +13,10 @@ body{
   background-color: white;
   width: 85vw;
   height: 150vh;
-
   margin:auto;
   display: grid;
   grid-template-columns: 1.8fr 1fr 1fr;
-  grid-template-rows: .3fr auto .6fr .3fr;
+  grid-template-rows: .3fr 1fr .6fr 1fr;
   grid-row-gap: 1em;
   grid-column-gap: 1em;
   grid-template-areas: "hd hd hd"
@@ -64,10 +63,25 @@ header a:active{
 .headertext div{
   margin-bottom: .5vw;
 }
+.lanImg{
+  width: 3vw;
+}
 
 aside {
   background: none;
   grid-area: sidebar;
+  position: relative;
+}
+.join{
+  display: flex;
+  border: 4px solid #005AA8;
+  background: #ecececec;
+  height: 4em;
+  width: 15em;
+  position: absolute;
+  bottom: 10vw;
+  align-items: center;
+  justify-content: center;
 }
 main {
   background: none;
