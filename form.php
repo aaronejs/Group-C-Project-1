@@ -34,7 +34,7 @@
         <label for="select">Contact type *</label><br>
         <select class="email_ctype" name="formType">
             <option value="Question" selected>Question</option>
-            <option value="Suggestion">Feedback</option>
+            <option value="Feedback">Feedback</option>
             <option value="Complaint">Complaint</option>
         </select><br>
         <label for="message">Message *</label><br>
