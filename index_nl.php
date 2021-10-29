@@ -30,6 +30,7 @@
         <div class="join"><h2>Join now!</h2></div>
       </aside>
       <main>
+        <div class="bgRect"></div>
         <div class="flexRow">
           <div>
             <img src="./resources/hiphop.jpg" alt="hiphop dance" >

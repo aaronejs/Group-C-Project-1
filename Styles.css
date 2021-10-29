@@ -87,6 +87,15 @@ main {
   background: none;
   grid-area: main;
   margin-top: .8em;
+  position: relative;
+}
+.bgRect{
+  position: absolute;
+  background: orange;
+  height: 80%;
+  width: 80%;
+  bottom: 2em;
+  right: -3em;
 }
 .flexRow{
   display: flex;
@@ -200,6 +209,9 @@ footer {
   }
   main{
     margin: 0;
+  }
+  .bgRect{
+    display: none;
   }
   .flexRow{
     height: 35vw;
