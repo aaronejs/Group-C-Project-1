@@ -131,9 +131,6 @@ main {
   opacity: 0;
   transition: opacity .6s;
 }
-.flexRow div:hover{
-  opacity: 0.8;
-}
 .flexRow div:hover h2{
   opacity: 0;
 }
