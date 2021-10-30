@@ -36,7 +36,7 @@
         <div class="flexRow">
           <div>
             <a href="./dances/hiphop_NL.html">
-              <img src="./resources/hiphop.jpg" alt="hiphop dance" >
+              <img src="./resources/hiphop.jpg" alt="hiphop dance">
               <h2>Hiphopdans</h2>
               <h3>
                 Hiphopdans is een levendige vorm van dans die een verscheidenheid aan
@@ -48,7 +48,7 @@
           </div>
           <div>
             <a href="./dances/ballet_NL.html">
-              <img src="./resources/ballet.jfif" alt="ballet dance" >
+              <img src="./resources/ballet.jfif" alt="ballet dance">
               <h2>Ballet</h2>
               <h3>
                 Ballet is een kunstvorm gecreëerd door de beweging van het menselijk lichaam.
@@ -73,7 +73,7 @@
           </div>
           <div>
             <a href="./dances/contemporary_NL.html">
-              <img src="./resources/contemporary.jfif" alt="contemporary dance" >
+              <img src="./resources/contemporary.jfif" alt="contemporary dance">
               <h2>Hedendaagse</h2>
               <h3>
                 Hedendaagse dans is een stijl van expressieve dans die elementen van
