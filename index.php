@@ -17,9 +17,9 @@
           </a>
         </div>
         <div class="headertext">
-          <p><a href="">Dance programm</a></p>
-          <p><a href="">Signup</a></p>
-          <p><a href="form.php">Feedback</a></p>
+          <p><a href="./dances/hiphop.html">Dance programm</a></p>
+          <p><a href="./signup.html">Signup</a></p>
+          <p><a href="./form.php">Feedback</a></p>
           <div>
             <a href="index_nl.php"><img src="./resources/NL_flag.png" alt="dutch flag" class="lanImg"></a>
           </div>
