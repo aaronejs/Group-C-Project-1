@@ -23,6 +23,8 @@ body{
                        "info info anoun"
                        "footer footer footer";
 }
+
+/*header*/
 header {
   display: flex;
   flex-direction: row;
@@ -36,7 +38,6 @@ header a{
   text-decoration: none;
   color: #005AA8;
 }
-
 .logo{
   display: flex;
   height: auto;
@@ -62,6 +63,7 @@ header a{
   width: 3vw;
 }
 
+/*sidebox*/
 aside {
   background: none;
   grid-area: sidebar;
@@ -69,19 +71,22 @@ aside {
 }
 aside a{
   text-decoration: none;
-  color: #142f63;
+  color: white;
 }
 .join{
   display: flex;
-  border: 4px solid #005AA8;
-  background: #ecececec;
+  border: 2px solid #005AA8;
+  background: red;
   height: 4em;
   width: 15em;
   position: absolute;
   bottom: 10vw;
   align-items: center;
   justify-content: center;
+  text-shadow: 2px 1px black;
 }
+
+/*mainbox*/
 main {
   background: none;
   grid-area: main;
@@ -137,6 +142,8 @@ main {
 .flexRow div:hover h3{
   opacity: 1;
 }
+
+/*infobox*/
 .info{
   padding: 4em;
   background: #fb8501;
@@ -151,6 +158,8 @@ main {
 .infotext p{
   margin-top: 2%;
 }
+
+/*announcements*/
 .announcements{
   background: none;
   border: 4px solid #142f63;
@@ -182,6 +191,7 @@ main {
   background: #142f63;
 }
 
+/*footer*/
 footer {
   background: #142f63;
   grid-area: footer;
