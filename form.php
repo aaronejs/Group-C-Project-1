@@ -11,7 +11,7 @@
     <div class="container">
       <header>
         <div class="logo">
-          <a href="index.php">
+          <a href="./index.php">
             <img src="./resources/logo_english.png" alt="NHLStenden logo" width="100%">
           </a>
         </div>

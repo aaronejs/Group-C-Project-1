@@ -36,10 +36,6 @@ header a{
   text-decoration: none;
   color: #005AA8;
 }
-header a:active{
-  text-decoration: none;
-  color: #005AA8;
-}
 
 .logo{
   display: flex;
@@ -70,6 +66,10 @@ aside {
   background: none;
   grid-area: sidebar;
   position: relative;
+}
+aside a{
+  text-decoration: none;
+  color: #142f63;
 }
 .join{
   display: flex;

@@ -12,7 +12,7 @@
     <div class="container">
       <header>
         <div class="logo">
-          <a href="index.php">
+          <a href="./index_nl.php">
             <img src="./resources/logo_english.png" alt="NHLStenden logo" width="100%">
           </a>
         </div>
@@ -21,13 +21,15 @@
           <p><a href="./signup_NL.html">Inschrijven</a></p>
           <p><a href="./form_NL.php">Feedback</a></p>
           <div>
-            <a href="index.php"><img src="./resources/EN_flag.png" alt="british flag" class="flagImg"></a>
+            <a href="./index.php"><img src="./resources/EN_flag.png" alt="british flag" class="flagImg"></a>
           </div>
         </div>
       </header>
       <aside>
         <img src="./resources/lineArt.png" alt="Lineart ballerina" width="100%">
-        <div class="join"><h2>Join now!</h2></div>
+        <a href="./signup_NL.html">
+          <div class="join"><h2>Join now!</h2></div>
+        </a>
       </aside>
       <main>
         <div class="bgRect"></div>
