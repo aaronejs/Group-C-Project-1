@@ -56,6 +56,9 @@ header a:active{
 .headertext div{
   margin-bottom: .5vw;
 }
+.flagImg{
+  width: 3vw;
+}
 aside{
   grid-area: sidebar;
 }
@@ -111,6 +114,9 @@ footer{
   .headertext p{
     font-size: 2.5vw;
     padding: 10px;
+  }
+  .flagImg{
+    width: 5vw;
   }
   .selection{
     height: 2em;
