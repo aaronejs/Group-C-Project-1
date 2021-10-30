@@ -11,7 +11,7 @@
   margin:auto;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: .25fr auto .6fr;
+  grid-template-rows: .25fr 1fr .5fr;
   grid-row-gap: 1em;
   grid-column-gap: 1em;
   grid-template-areas: "hd hd"
@@ -82,10 +82,11 @@ main{
   font-size: 1.05em;
   font-weight: 500;
 }
-main img{
+.danceImg{
   float:right;
   padding: 1em;
   padding-right: 0;
+  width: 390px;
 }
 main div{
   margin-bottom: 1em;
