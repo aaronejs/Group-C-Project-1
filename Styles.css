@@ -197,7 +197,28 @@ main {
 /*footer*/
 footer {
   background: #142f63;
+  color: white;
   grid-area: footer;
+  display: flex;
+  justify-content: space-around;
+}
+footer h2{
+  margin-bottom: 1em;
+}
+footer img{
+  width: 100%;
+}
+footer a{
+
+  color: white;
+}
+.fContent{
+  padding: 2em;
+  width: 20em;
+  background: red;
+}
+.bottomTxt{
+  margin-top: 3em;
 }
 
 @media only screen and (max-width:1024px){

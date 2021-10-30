@@ -124,7 +124,28 @@
         ?>
       </div>
       <footer>
-        footer
+        <div class="fContent">
+          <img src="./resources/logo_english.png" alt="NHLStenden logo">
+        </div>
+        <div class="fContent">
+          <h2>Contact details</h2>
+          <p>NHL Stenden University of Applied Sciences</p>
+          <p>Rengerslaan 8-10, 8917 DD Leeuwarden</p>
+          <p>P.O. Box 1080</p>
+          <p>8900 CB Leeuwarden</p>
+          <p>The Netherlands</p>
+
+          <div class="bottomTxt">
+            <p>Tel: <a href="Tel:+31582441155">+31 58 244 1155</a></p>
+            <p>Email: <a href="mailto:studentinfo@nhlstenden.com"> studentinfo@nhlstenden.com</a></p>
+          </div>
+        </div>
+        <div class="fContent">
+
+        </div>
+        <div class="fContent">
+
+        </div>
       </footer>
     </div>
   </body>
