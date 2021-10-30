@@ -21,7 +21,7 @@
           <p><a href="./signup_NL.html">Inschrijven</a></p>
           <p><a href="./form_NL.php">Feedback</a></p>
           <div>
-            <a href="index.php"><img src="./resources/EN_flag.png" alt="british flag" width="40vw"></a>
+            <a href="index.php"><img src="./resources/EN_flag.png" alt="british flag" class="flagImg"></a>
           </div>
         </div>
       </header>
@@ -33,45 +33,53 @@
         <div class="bgRect"></div>
         <div class="flexRow">
           <div>
-            <img src="./resources/hiphop.jpg" alt="hiphop dance" >
-            <h2>Hiphopdans</h2>
-            <h3>
-              Hiphopdans is een levendige vorm van dans die een verscheidenheid aan
-              freestyle-bewegingen combineert om een cultureel kunstwerk te creëren.
-              Door de drie hoofdstijlen van popping, locking en breaking is hiphopdans
-              geëvolueerd tot een van de meest populaire en invloedrijke dansstijlen.
-            </h3>
+            <a href="./dances/hiphop_NL.html">
+              <img src="./resources/hiphop.jpg" alt="hiphop dance" >
+              <h2>Hiphopdans</h2>
+              <h3>
+                Hiphopdans is een levendige vorm van dans die een verscheidenheid aan
+                freestyle-bewegingen combineert om een cultureel kunstwerk te creëren.
+                Door de drie hoofdstijlen van popping, locking en breaking is hiphopdans
+                geëvolueerd tot een van de meest populaire en invloedrijke dansstijlen.
+              </h3>
+            </a>
           </div>
           <div>
-            <img src="./resources/ballet.jfif" alt="ballet dance" >
-            <h2>Ballet</h2>
-            <h3>
-              Ballet is een kunstvorm gecreëerd door de beweging van het menselijk lichaam.
-              Het is theatraal - uitgevoerd op een podium voor een publiek met gebruikmaking
-              van kostuums, decorontwerp en verlichting.
-            </h3>
+            <a href="./dances/ballet_NL.html">
+              <img src="./resources/ballet.jfif" alt="ballet dance" >
+              <h2>Ballet</h2>
+              <h3>
+                Ballet is een kunstvorm gecreëerd door de beweging van het menselijk lichaam.
+                Het is theatraal - uitgevoerd op een podium voor een publiek met gebruikmaking
+                van kostuums, decorontwerp en verlichting.
+              </h3>
+            </a>
           </div>
         </div>
         <div class="flexRow">
           <div>
-            <img src="./resources/flamenco.jfif" alt="flamenco dance">
-            <h2>Flamenco</h2>
-            <h3>
-              Flamenco dans (baile) is een zeer expressieve Spaanse dans vorm.
-              De flamenco is een solodans die wordt gekenmerkt door handgeklap,
-              percussie voetwerk en ingewikkelde hand-, arm- en lichaamsbewegingen.
-              De dans wordt meestal begeleid door een zanger en gitaris
-            </h3>
+            <a href="./dances/flamenco_NL.html">
+              <img src="./resources/flamenco.jfif" alt="flamenco dance">
+              <h2>Flamenco</h2>
+              <h3>
+                Flamenco dans (baile) is een zeer expressieve Spaanse dans vorm.
+                De flamenco is een solodans die wordt gekenmerkt door handgeklap,
+                percussie voetwerk en ingewikkelde hand-, arm- en lichaamsbewegingen.
+                De dans wordt meestal begeleid door een zanger en gitaris
+              </h3>
+            </a>
           </div>
           <div>
-            <img src="./resources/contemporary.jfif" alt="contemporary dance" >
-            <h2>Hedendaagse</h2>
-            <h3>
-              Hedendaagse dans is een stijl van expressieve dans die elementen van
-              verschillende dansgenres combineert, waaronder modern, jazz, lyrisch
-              en klassiek ballet. Hedendaagse dansers streven ernaar om de geest en
-              het lichaam te verbinden door middel van vloeiende dansbewegingen.
-            </h3>
+            <a href="./dances/contemporary_NL.html">
+              <img src="./resources/contemporary.jfif" alt="contemporary dance" >
+              <h2>Hedendaagse</h2>
+              <h3>
+                Hedendaagse dans is een stijl van expressieve dans die elementen van
+                verschillende dansgenres combineert, waaronder modern, jazz, lyrisch
+                en klassiek ballet. Hedendaagse dansers streven ernaar om de geest en
+                het lichaam te verbinden door middel van vloeiende dansbewegingen.
+              </h3>
+            </a>
           </div>
         </div>
       </main>

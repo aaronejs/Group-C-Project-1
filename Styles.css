@@ -8,7 +8,6 @@ body{
   color:;
 }
 
-
 .container{
   background-color: white;
   width: 85vw;
@@ -63,7 +62,7 @@ header a:active{
 .headertext div{
   margin-bottom: .5vw;
 }
-.lanImg{
+.flagImg{
   width: 3vw;
 }
 
@@ -110,6 +109,7 @@ main {
   flex:1;
   position: relative;
 }
+
 .flexRow h2{
   font-size: 2vw;
   position: absolute;
@@ -190,7 +190,7 @@ footer {
 @media only screen and (max-width:1024px){
   .container{
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "hd"
                          "main"
                          "info"
@@ -200,6 +200,9 @@ footer {
   .headertext p{
     font-size: 2.5vw;
     padding: 10px;
+  }
+  .flagImg{
+    width: 5vw;
   }
   aside{
     display: none;
