@@ -13,7 +13,7 @@
       <header>
         <div class="logo">
           <a href="./index.php">
-            <img src="./resources/logo_english.png" alt="NHLStenden logo" width="100%">
+            <img src="./resources/logo_english.png" alt="NHLStenden logo" class="width">
           </a>
         </div>
         <div class="headertext">
@@ -26,7 +26,7 @@
         </div>
       </header>
       <aside>
-        <img src="./resources/lineArt.png" alt="Lineart ballerina" width="100%">
+        <img src="./resources/lineArt.png" alt="Lineart ballerina" class="width">
         <a href="./signup.html">
           <div class="join"><h2>Join now!</h2></div>
         </a>
@@ -36,7 +36,7 @@
         <div class="flexRow">
           <div>
             <a href="./dances/hiphop.html">
-              <img src="./resources/hiphop.jpg" alt="hiphop dance" >
+              <img src="./resources/hiphop.jpg" alt="hiphop dance">
               <h2>Hip-hop</h2>
               <h3>
                 Hip-hop dance is a vibrant form of dance that combines
@@ -48,7 +48,7 @@
           </div>
           <div>
             <a href="./dances/ballet.html">
-              <img src="./resources/ballet.jfif" alt="ballet dance" >
+              <img src="./resources/ballet.jfif" alt="ballet dance">
               <h2>Ballet</h2>
               <h3>
                 Ballet is an art form that is theatrical and has a scenic
@@ -74,7 +74,7 @@
           </div>
           <div>
             <a href="./dances/contemporary.html">
-              <img src="./resources/contemporary.jfif" alt="contemporary dance" >
+              <img src="./resources/contemporary.jfif" alt="contemporary dance">
               <h2>Contemporary</h2>
               <h3>
                 Contemporary dance is a style of expressive dance that combines

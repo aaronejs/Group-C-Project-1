@@ -13,7 +13,7 @@
       <header>
         <div class="logo">
           <a href="./index_nl.php">
-            <img src="./resources/logo_english.png" alt="NHLStenden logo" width="100%">
+            <img src="./resources/logo_english.png" alt="NHLStenden logo" class="width">
           </a>
         </div>
         <div class="headertext">
@@ -26,7 +26,7 @@
         </div>
       </header>
       <aside>
-        <img src="./resources/lineArt.png" alt="Lineart ballerina" width="100%">
+        <img src="./resources/lineArt.png" alt="Lineart ballerina" class="width">
         <a href="./signup_NL.html">
           <div class="join"><h2>Join now!</h2></div>
         </a>

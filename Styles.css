@@ -23,7 +23,9 @@ body{
                        "info info anoun"
                        "footer footer footer";
 }
-
+.width{
+  width: 100%;
+}
 /*header*/
 header {
   display: flex;
