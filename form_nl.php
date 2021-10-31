@@ -17,7 +17,7 @@
         </div>
         <div class="headertext">
           <p><a href="./dances/hiphop_NL.html">Dansprogramma</a></p>
-          <p><a href="./signup_NL.html">Inschrijven</a></p>
+          <p><a href="./signup_NL.html">Aanmelden</a></p>
           <p><a href="./form_NL.php">Feedback</a></p>
         </div>
       </header>

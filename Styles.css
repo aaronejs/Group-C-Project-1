@@ -48,6 +48,14 @@ header a{
   align-items: flex-end;
   justify-content: flex-start;
 }
+.logo_dutch{
+  display: flex;
+  height: auto;
+  width: 10vw;
+  padding:1vw;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
 .headertext{
   display: flex;
   justify-content: flex-end;
