@@ -108,9 +108,6 @@
       </div>
       <footer>
         <div class="fContent">
-          <img src="./resources/logo_english.png" alt="NHLStenden logo">
-        </div>
-        <div class="fContent">
           <h2>External links</h2>
           <div class="fItem">
             <a href="https://bibliotheek.nhlstenden.com/en/">Library</a>

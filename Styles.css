@@ -200,7 +200,7 @@ footer {
   color: white;
   grid-area: footer;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-size: 1.1em;
 }
 footer h2{
@@ -210,14 +210,14 @@ footer img{
   width: 100%;
 }
 footer a{
-
   color: white;
 }
 .fContent{
   padding: 2em;
-  width: 25em;
+  width: 15vw;
   background: none;
 }
+
 .fItem{
   padding-bottom: 1em;
 }
@@ -268,6 +268,14 @@ footer a{
   }
   .infotext{
     font-size: 1em;
+  }
+  footer{
+    justify-content: space-around;
+  }
+  .fContent{
+    padding: 0;
+    width: 25vw;
+    font-size: .6em;
   }
 }
 
@@ -381,5 +389,5 @@ select{
     position: relative;
   }
   #goodluck{
-    margin-left:33vw;
+    text-align: center;
   }
