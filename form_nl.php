@@ -30,7 +30,7 @@
         <input class="name" type="text" id="firstName" name="firstName" placeholder="Voornaam">
         <input class="name" type="text" id="lastName" name="lastName" placeholder="Achernaam"><br>
         <label for="email">E-mail *</label><br>
-        <input class="email_ctype" type="text" id="email" name="email" placeholder="E-mail"><br>
+        <input class="email_ctype" type="email" id="email" name="email" placeholder="E-mail"><br>
         <label for="select">Contact type *</label><br>
         <select class="email_ctype" name="formType">
             <option value="Vraag" selected>Vraag</option>
