@@ -201,6 +201,7 @@ footer {
   grid-area: footer;
   display: flex;
   justify-content: space-around;
+  font-size: 1.1em;
 }
 footer h2{
   margin-bottom: 1em;
@@ -214,8 +215,11 @@ footer a{
 }
 .fContent{
   padding: 2em;
-  width: 20em;
-  background: red;
+  width: 25em;
+  background: none;
+}
+.fItem{
+  padding-bottom: 1em;
 }
 .bottomTxt{
   margin-top: 3em;
