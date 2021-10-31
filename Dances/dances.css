@@ -97,9 +97,35 @@ main div{
 .text{
   padding: 2em;
 }
-footer{
+
+footer {
   background: #142f63;
+  color: white;
   grid-area: footer;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.1em;
+}
+footer h2{
+  margin-bottom: 1em;
+}
+footer img{
+  width: 100%;
+}
+footer a{
+  color: white;
+}
+.fContent{
+  padding: 2em;
+  width: 15vw;
+  background: none;
+}
+
+.fItem{
+  padding-bottom: 1em;
+}
+.bottomTxt{
+  margin-top: 3em;
 }
 
 @media only screen and (max-width:1024px){
@@ -124,5 +150,13 @@ footer{
   }
   main img{
     display: none;
+  }
+  footer{
+    justify-content: space-around;
+  }
+  .fContent{
+    padding: 0;
+    width: 25vw;
+    font-size: .6em;
   }
 }

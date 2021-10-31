@@ -200,7 +200,7 @@ footer {
   color: white;
   grid-area: footer;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-size: 1.1em;
 }
 footer h2{
@@ -210,14 +210,14 @@ footer img{
   width: 100%;
 }
 footer a{
-
   color: white;
 }
 .fContent{
   padding: 2em;
-  width: 25em;
+  width: 15vw;
   background: none;
 }
+
 .fItem{
   padding-bottom: 1em;
 }
@@ -269,15 +269,23 @@ footer a{
   .infotext{
     font-size: 1em;
   }
+  footer{
+    justify-content: space-around;
+  }
+  .fContent{
+    padding: 0;
+    width: 25vw;
+    font-size: .6em;
+  }
 }
 
 /* Form pages */
 .name{
     width:22vw;
-    height:2.5vw;
+    height:3em;
 }
 input{
-    margin-bottom:2.5vh;
+    margin-bottom:20px;
     border: 2px solid #005AA8;
 }
 ::placeholder{
@@ -289,16 +297,16 @@ select{
 }
 .email_ctype{
     width:44.38vw;
-    height:5vh;
+    height:3em;
 }
 #message{
     width:44.38vw;
-    height:7.5vh;
+    height:3.5em;
     resize:none;
 }
 #submit{
     width:11vw;
-    height:5vh;
+    height:3em;
     margin-left:5vw;
     border:0;
     color:white;
@@ -306,10 +314,108 @@ select{
 }
 #reset{
     width:11vw;
-    height:5vh;
+    height:3em;
     float:right;
     margin-right:5vw;
     border:0;
     color:white;
     background: #fb8501;
+}
+
+/*form*/
+.container_form{
+  background-color: white;
+  width: 85vw;
+  height: 150vh;
+  margin:auto;
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr;
+  grid-template-rows: .3fr 1fr .6fr;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  grid-template-areas: "hd hd hd"
+                       "sidebar main main"
+                       "footer footer footer";
+}
+
+/*Sign up*/
+.container_signup{
+  background-color: white;
+  width: 85vw;
+  height: 150vh;
+  margin:auto;
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr;
+  grid-template-rows: .3fr 1fr .6fr 1fr;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  grid-template-areas: "hd hd hd"
+                       "main_left main_right main_right"
+                       "info info info"
+                       "footer footer footer";
+}
+@media only screen and (max-width:1024px){
+  .container_signup{
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "hd"
+                         "main_left"
+                         "main_right"
+                         "info"
+                         "footer";
+  }
+  .container_form{
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: .3fr 1fr .6fr;
+    grid-template-areas: "hd hd hd"
+                         "sidebar main main"
+                         "footer footer footer";
+  }
+  .container_form .fContent{
+    font-size: 1em;
+  }
+}
+#signup_main_left{
+  background: none;
+  grid-area: main_left;
+  margin-top: .8em;
+  position: relative;
+  border-right:2px solid #005AA8;
+}
+#signup_main_right{
+  background:none;
+  grid-area:main_right;
+  margin-top: .8em;
+  position: relative;
+}
+.tutorial_p{
+  margin-bottom:10px;
+}
+#tutorial_img1{
+  width: 300px;
+  height: 100px;
+  border: 2px solid #005AA8;
+  margin-bottom:10px;
+}
+#tutorial_img2{
+    width:300px;
+    height:150px;
+    border: 2px solid #005AA8;
+    margin-bottom:10px;
+}
+#tutorial_img3{
+    width:300px;
+    height:400px;
+    border: 2px solid #005AA8;
+    margin-bottom:10px;
+}
+#tutorial_goodluck{
+  background:none;
+  grid-area:info;
+  margin-top: .8em;
+  position: relative;
+}
+#goodluck{
+  text-align: center;
 }
