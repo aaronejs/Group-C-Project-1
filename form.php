@@ -8,7 +8,7 @@
     <title>NHLStenden Dance course | Form</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container_form">
       <header>
         <div class="logo">
           <a href="./index.php">
@@ -19,6 +19,9 @@
           <p><a href="./dances/hiphop.html">Dance programm</a></p>
           <p><a href="./signup.html">Signup</a></p>
           <p><a href="./form.php">Feedback</a></p>
+          <div>
+            <a href="./form_NL.php"><img src="./resources/NL_flag.png" alt="dutch flag" class="flagImg"></a>
+          </div>
         </div>
       </header>
          <aside>

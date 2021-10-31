@@ -8,7 +8,7 @@
     <title>NHLStenden Danscursus | Vorm</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container_form">
       <header>
         <div class="logo">
           <a href="./index.php">
@@ -19,6 +19,9 @@
           <p><a href="./dances/hiphop_NL.html">Dansprogramma</a></p>
           <p><a href="./signup_NL.html">Aanmelden</a></p>
           <p><a href="./form_NL.php">Feedback</a></p>
+          <div>
+            <a href="./form.php"><img src="./resources/EN_flag.png" alt="british flag" class="flagImg"></a>
+          </div>
         </div>
       </header>
          <aside>
