@@ -9,7 +9,7 @@
         <?php
           function event(){
             //using the file function to split strings from the text file into arrays
-            $lines=file("newfile.txt");
+            $lines=file("Events.txt");
             //usign explode to further create arrays for each individual element
 
             $date=explode(";",$lines[0]);
