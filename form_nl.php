@@ -80,7 +80,23 @@
     ?>
     </main>
     <footer>
-      footer
+      <div class="fContent">
+        <h2>External links</h2>
+        <div class="fItem">
+          <p><a href="https://bibliotheek.nhlstenden.com/en/">Library</a></p>
+          <p><a href="https://www.studielink.nl/">Studielink</a></p>
+        </div>
+      </div>
+      <div class="fContent">
+        <h2>Contact details</h2>
+        <p>NHL Stenden University of Applied Sciences Emmen</p>
+        <p>Van Schaikweg 94, 7811 KL Emmen</p>
+        <p>The Netherlands</p>
+        <div class="bottomTxt">
+          <p>Tel: <a href="Tel:+31591853100">+31 (0)591 853 100</a></p>
+          <p>Email: <a href="mailto:receptie.emmen@nhlstenden.com"> receptie.emmen@nhlstenden.com</a></p>
+        </div>
+      </div>
     </footer>
     </div>
   </body>

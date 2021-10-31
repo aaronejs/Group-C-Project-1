@@ -126,20 +126,18 @@
         <div class="fContent">
           <h2>External links</h2>
           <div class="fItem">
-            <a href="https://bibliotheek.nhlstenden.com/en/">Library</a>
+            <p><a href="https://bibliotheek.nhlstenden.com/en/">Library</a></p>
+            <p><a href="https://www.studielink.nl/">Studielink</a></p>
           </div>
         </div>
         <div class="fContent">
           <h2>Contact details</h2>
-          <p>NHL Stenden University of Applied Sciences</p>
-          <p>Rengerslaan 8-10, 8917 DD Leeuwarden</p>
-          <p>P.O. Box 1080</p>
-          <p>8900 CB Leeuwarden</p>
+          <p>NHL Stenden University of Applied Sciences Emmen</p>
+          <p>Van Schaikweg 94, 7811 KL Emmen</p>
           <p>The Netherlands</p>
-
           <div class="bottomTxt">
-            <p>Tel: <a href="Tel:+31582441155">+31 58 244 1155</a></p>
-            <p>Email: <a href="mailto:studentinfo@nhlstenden.com"> studentinfo@nhlstenden.com</a></p>
+            <p>Tel: <a href="Tel:+31591853100">+31 (0)591 853 100</a></p>
+            <p>Email: <a href="mailto:receptie.emmen@nhlstenden.com"> receptie.emmen@nhlstenden.com</a></p>
           </div>
         </div>
       </footer>
