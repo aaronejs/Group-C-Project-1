@@ -101,23 +101,6 @@
         </div>
       </div>
       <div class="announcements">
-        <div class="nestedAnnounce"><h2>Events</h2></div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
-        <div class="nestedAnnounce">Test</div>
         <?php
         include 'event.php';
         event();
